@@ -1,3 +1,3 @@
 # jay-boyce-site
 
-[Netlify](https://mm-lp-boyce.netlify.app/)
+[Netlify](https://jboyce.netlify.app/)
