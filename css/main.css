@@ -402,12 +402,11 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         width: 200px;
         margin: 0;
         line-height: 1.5rem;
-        top: 30%;
-        left: 0%;
+        /* top: 30%;
+        left: 0%; */
 
-        color:pink;
         top: 48%;
-        left: 5%;
+        left: 0%;
     }
 
 
@@ -794,7 +793,7 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
 
 
         color:green;
-        top: 35%;
+        top: 38%;
         left: 0%;
     }
 
@@ -1066,7 +1065,7 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         left: 5%; */
 
         color:red;
-        top: 42%;
+        top: 45%;
         left: 5%;
     }
 
