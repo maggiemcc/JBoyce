@@ -529,6 +529,12 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
 
 
     /* STATS LANDING */
+
+    .select {
+        max-width: 300px;
+        margin: auto;
+    }
+    
     .cards {
         width: 90%;
         margin: auto;
@@ -536,12 +542,18 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         padding: 2% 0;
+        max-width: 300px;
     }
 
     .card {margin: auto; margin-bottom: 20px;}
 
 
     /* STATS */
+
+    .character, .moreStats {
+        max-width: 450px;
+    }
+
     .character {
         display: grid;
         grid-template-columns: 1fr;
