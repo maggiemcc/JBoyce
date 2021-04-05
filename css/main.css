@@ -83,7 +83,7 @@ html, body {
       font-size: 1rem;
       color: black;
       font-family: 'Nunito Sans', sans-serif;
-      font-weight: 500;
+      font-weight: 300;
    
   }
 
@@ -419,7 +419,7 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         font-size: 1rem;
         color: white;
         font-family: 'Nunito Sans', sans-serif;
-
+        font-weight: 300;
     }
 
     .buy-btn:hover {
@@ -521,6 +521,8 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         border-radius: 10px;
         font-size: 1rem;
         margin: 1rem;
+        font-family: 'Nunito Sans', sans-serif; 
+        font-weight: 300;
     }
 
     .learn-btn:hover {
@@ -831,6 +833,8 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         border-radius: 10px;
         font-size: 1.5rem;
         color: white;
+        font-family: 'Nunito Sans', sans-serif; 
+        font-weight: 300;
     }
 
     .buy-btn:hover {
@@ -959,6 +963,8 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         border-radius: 10px;
         font-size: 1rem;
         margin: 1rem 0;
+        font-family: 'Nunito Sans', sans-serif; 
+        font-weight: 300;
     }
 
     .learn-btn:hover {
@@ -1217,6 +1223,8 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         border-radius: 10px;
         font-size: 1.5rem;
         color: white;
+        font-family: 'Nunito Sans', sans-serif; 
+        font-weight: 300;
     }
 
     .buy-btn:hover {
