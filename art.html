@@ -34,7 +34,7 @@
   <div class="thankyou">
   <p class="thanks">I want to say thank you to all of my fans for their support. I appreciate and love seeing the amazing fan art many have created and shared with me.</p>
   </div>
-
+<!-- 
   <div class="gallery">
   <div class="slider-for">
     <div class="item">
@@ -139,8 +139,116 @@
     <div class="item">
       <img src="fanart/Siphon_Map.jpg" alt="image" draggable="false" />
     </div>
-  </div>
+  </div> -->
 
+
+
+
+  <div class="gallery">
+    <div class="slider-for">
+      <div class="item">
+        <img data-lazy="fanart/fanart.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart1.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart2.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart4.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart13.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart14.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart15.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart16.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart3.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart5.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart6.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart7.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart17.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart18.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart19.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart8.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart9.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart10.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart12.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart11.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart20.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart21.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart22.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart23.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart24.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart25.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart30.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart29.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart28.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart31.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart26.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart27.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/fanart32.jpg" alt="image" draggable="false" />
+      </div>
+      <div class="item">
+        <img data-lazy="fanart/Siphon_Map.jpg" alt="image" draggable="false" />
+      </div>
+    </div>
 
 
 
@@ -276,6 +384,10 @@
 
   <script>
     $(document).ready(function () {
+      $('.lazy').slick({
+    lazyLoad: 'ondemand',
+      });
+      
       $('.slider-for').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
