@@ -1082,7 +1082,12 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
     .copyright {
         text-align: center;
     }
+
+
+    .character {grid-template-columns: 300px 300px;}
+    .moreStats {width:610px;}
 }
+
 
 
 
