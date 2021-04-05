@@ -1134,11 +1134,14 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         font-family: 'Cinzel', serif;
         font-size: 3rem;
         line-height: 3.2rem;
-        top: 38%;
+        /* top: 38%;
         top: 35%;
-        left: 15%;
+        left: 15%; */
         text-align: center;
         width: 500px;
+
+        top: 30%;
+        left: 35%;
     }
 
 
@@ -1248,8 +1251,10 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
     
         font-size: 4rem;
         line-height: 4.2rem;
-        top: 44%;
-        left: 15%;
+        /* top: 44%;
+        /* left: 15%; */
+        top: 35%;
+        left: 40%;
     }    
 
     
