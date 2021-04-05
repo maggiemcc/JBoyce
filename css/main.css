@@ -137,7 +137,7 @@ html, body {
 .character {
     display: grid;
     grid-template-columns: 300px 300px;
-    grid-template-columns: 350px 350px;
+    /* grid-template-columns: 350px 350px; */
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     margin: .5rem auto .8rem auto;
@@ -1082,10 +1082,6 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
     .copyright {
         text-align: center;
     }
-
-
-    .character {grid-template-columns: 300px 300px;}
-    .moreStats {width:610px;}
 }
 
 
@@ -1341,5 +1337,3 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
 
 .moreStats h2 { font-weight: 500;}
 
-
-.moreStats {width:710px;}
