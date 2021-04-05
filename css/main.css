@@ -404,6 +404,10 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         line-height: 1.5rem;
         top: 30%;
         left: 0%;
+
+        color:pink;
+        top: 48%;
+        left: 5%;
     }
 
 
@@ -785,7 +789,12 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         position: absolute;
         width: 390px;
         line-height: 2.8rem;
-        top: 30%;
+        /* top: 30%;
+        left: 0%; */
+
+
+        color:green;
+        top: 35%;
         left: 0%;
     }
 
@@ -1053,7 +1062,11 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         width: 430px;
         font-size: 3.25rem;
         line-height: 3.4rem;
-        top: 40%;
+        /* top: 40%;
+        left: 5%; */
+
+        color:red;
+        top: 42%;
         left: 5%;
     }
 
