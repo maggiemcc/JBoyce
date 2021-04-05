@@ -464,6 +464,19 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         margin-bottom: 0.3rem;
     }
 
+    .home-h2 {
+        font-family: 'Nunito Sans', sans-serif;
+        color: #10718A;
+        text-transform: uppercase;
+        text-align: center;
+        /* font-size: 2rem; */
+        font-size: 1.8rem;
+        font-weight: 400;
+        margin: 0;
+        /* padding: 1rem; */
+        /* margin: 0; */
+    }
+
 
     .home-books img {
         width: 100%;
@@ -866,6 +879,18 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         text-align: center;
         font-size: 2.5rem;
         margin-bottom: 0.3rem;
+    }
+
+    .home-h2 {
+        font-family: 'Nunito Sans', sans-serif;
+        color: #10718A;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 400;
+        margin: 0;
+        /* padding: 1rem; */
+        /* margin: 0; */
     }
 
     .book-description-btn {
