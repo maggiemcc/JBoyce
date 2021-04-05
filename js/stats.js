@@ -1,13 +1,13 @@
 var chapterJson = [
   {
-    chapter_number: 0, display: '',
-    strength: '',
-    dexterity: '',
-    constitution: '',
-    intelligence: '',
-    magic: '',
-    charisma: '',
-    luck: '',
+    chapter_number: 0, display: "",
+    strength: "",
+    dexterity: "",
+    constitution: "",
+    intelligence: "",
+    magic: "",
+    charisma: "",
+    luck: "",
 
     "ability 1": {
       ability: "",
@@ -64,7 +64,7 @@ var chapterJson = [
       level: "",
       percentage: "",
     },
-    'ability 12': {
+    "ability 12": {
       ability: "",
       level: "",
       percentage: "",
