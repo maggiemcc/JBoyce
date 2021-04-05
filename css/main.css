@@ -402,10 +402,7 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         width: 200px;
         margin: 0;
         line-height: 1.5rem;
-        /* top: 30%;
-        left: 0%; */
-
-        top: 48%;
+        top: 43%;
         left: 0%;
     }
 
@@ -788,12 +785,7 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         position: absolute;
         width: 390px;
         line-height: 2.8rem;
-        /* top: 30%;
-        left: 0%; */
-
-
-        color:green;
-        top: 38%;
+        top: 30%;
         left: 0%;
     }
 
@@ -1065,7 +1057,8 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         left: 5%; */
 
         color:red;
-        top: 45%;
+        /* top: 45%; */
+        top: 30%;
         left: 5%;
     }
 
