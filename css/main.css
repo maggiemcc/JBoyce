@@ -442,6 +442,9 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         font-size: 1rem;
     }
 
+    .home-book-img {width: 75%; margin-left: auto; margin-right: auto;}
+
+
     .book-img {
         display: block;
         margin-left: auto;
@@ -485,10 +488,6 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
     }
 
 
-    .home-books img {
-        width: 100%;
-    }
-
     .about-books {
         width: 100%;
         display: block;
@@ -511,6 +510,7 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
     .about-books img {
         width: 100%;
     }
+
 
     .tablet-about-books {
         display: none;
