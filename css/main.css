@@ -1232,8 +1232,8 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
 
     .book-description-btn {
         align-self: flex-start;
-        font-size: 1rem;
         font-size: 1.2rem;
+        font-size: 1rem;
         padding-top: 5rem;
         padding-right: 5rem;
     }
