@@ -69,6 +69,7 @@ html, body {
   .container h4 {
     font-family: 'Cinzel', serif;
     font-size: 1.2rem;
+    font-weight: normal;
   }
 
   .card .container button {
@@ -109,11 +110,25 @@ html, body {
     color: red;
 }
 
+/* #selection {
+    display: grid; 
+    grid-template-columns: 60px 330px;  
+    width: 400px; 
+    margin: auto; 
+    height: 60px; 
+    grid-column-gap: 2%;
+}
+#selection img {width: 60px; height: auto; margin: auto; border-radius: 5px;} */
 
+/* #selection #icon {text-align: center; margin: auto;} */
 
 .dropdown {
+    /* margin: auto 0 ; */
     margin: auto;
+    /* text-align: center; */
+    width: 100%;
     text-align: center;
+
 }
 
 .dropdown h2, .moreStats h2 {
@@ -122,6 +137,11 @@ html, body {
     margin-bottom: 0;
     font-weight: 500;
 }
+
+select {border: 1px solid black; border-radius: 5px; background-color: #fff; outline: none;}
+
+
+#chapTitle {text-align: center; font-family: 'Nunito Sans', sans-serif; font-size: 2rem; font-weight: 500; margin-bottom: 1rem;}
 
 .moreStats h2 {
     margin-bottom: 1rem;
@@ -135,7 +155,6 @@ html, body {
  padding: 10px 0;
  width: 300px;
 }
-
 
 
 .character {
@@ -567,6 +586,19 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
 
 
     /* STATS */
+
+    #selection {
+        /* display: grid;  */
+        /* grid-template-columns: 50px 230px;   */
+        width: 280px;
+        max-width: 450px; 
+        margin: auto; 
+        height: 50px; 
+        /* grid-column-gap: 2%; */
+    }
+    /* #selection img {width: 50px; height: 50px; margin: auto; border-radius: 5px; padding: 0; margin: 0;} */
+    
+    #selection select {width: 100%; height: 50px;}
 
     .character, .moreStats {
         max-width: 450px;
@@ -1001,6 +1033,18 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         cursor: pointer;
     }
 
+
+    /* STATS */
+    #selection {
+        /* display: grid; 
+        grid-template-columns: 50px 330px;   */
+        width: 390px; 
+        margin: auto; 
+        height: 50px; 
+        /* grid-column-gap: 2%; */
+    }
+    /* #selection img {width: 50px; height: auto; margin: auto; border-radius: 5px;} */
+    select {height: 50px;}
 
     /* STATS: SPECIAL ABILITITES */
     .moreStats {
