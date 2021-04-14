@@ -12,300 +12,12 @@ html, body {
 
 
 
-.thankyou {
-    /* display: grid; */
-    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-    margin: auto;
-    max-width: 1200px;
-}
 
-/* .thanks {
-    grid-column: 2 / span 2;
-} */
 
 
-
-
-.select {
-    text-align: center;
-    font-size: 1.2rem;
-}
-
-.cards {
-    width: 90%;
-    max-width: 900px;
-    margin: auto;
-    margin-bottom: 8.5rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 2rem 0;
-}
-
-.card {
-    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5); */
-    margin: auto;
-    transition: 0.3s;
-    width: 95%;
-    background-color: black;
-    border-radius: 2% 2%;
-  }
-  
-  /* .card:hover {
-    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.5);
-  } */
-
-
-  .card img {
-      border-bottom: 2px solid white;
-  }
-  
-  .container {
-    /* padding: 0% 0% 8% 0%; */
-    color: white;
-    text-align: center;
-    height: 130px;
-  }
-
-  .container h4 {
-    font-family: 'Cinzel', serif;
-    font-size: 1.2rem;
-    font-weight: normal;
-  }
-
-  .card .container button {
-      width: 90%;
-      height: 50px;
-
-      /* padding: .25rem .5rem; */
-      outline: none;
-      border: none;
-      background-color: white;
-      border-radius: 5px;
-      font-size: 1rem;
-      color: black;
-      font-family: 'Nunito Sans', sans-serif;
-      font-weight: 300;
-   
-  }
-
-  .card .container button:hover {
-    background-color: rgb(233, 233, 233);
-    color: red;
-    color: black;
-    cursor: pointer;
-}
-
-
-
-.back {
-    margin-left: 2rem;
-}
-
-.back a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.2rem;
-}
-.back a:hover {
-    color: red;
-}
-
-/* #selection {
-    display: grid; 
-    grid-template-columns: 60px 330px;  
-    width: 400px; 
-    margin: auto; 
-    height: 60px; 
-    grid-column-gap: 2%;
-}
-#selection img {width: 60px; height: auto; margin: auto; border-radius: 5px;} */
-
-/* #selection #icon {text-align: center; margin: auto;} */
-
-.dropdown {
-    /* margin: auto 0 ; */
-    margin: auto;
-    /* text-align: center; */
-    width: 100%;
-    text-align: center;
-
-}
-
-.dropdown h2, .moreStats h2 {
-    font-size: 2rem;
-    text-align: center;
-    margin-bottom: 0;
-    font-weight: 500;
-}
-
-select {border: 1px solid black; border-radius: 5px; background-color: #fff; outline: none;}
-
-
-#chapTitle {text-align: center; font-family: 'Nunito Sans', sans-serif; font-size: 2rem; font-weight: 500; margin-bottom: 1rem;}
-
-.moreStats h2 {
-    margin-bottom: 1rem;
-}
-
-#chapterlist {
- margin: 0 auto;
- text-align: center;
- line-height: 1rem;
- font-size: 1rem;
- padding: 10px 0;
- width: 300px;
-}
-
-
-.character {
-    display: grid;
-    grid-template-columns: 300px 300px;
-    /* grid-template-columns: 350px 350px; */
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    margin: .5rem auto .8rem auto;
-    justify-content: center;
-}
-
-#chapterInfo {
-    border: 2px solid black;
-    display: grid;
-    grid-template-columns: 12% 42% 42%;
-    padding: 3%;
-}
-
-.charImg {
-    width: 99%;
-    height: 98.6%;
-    border: 2px solid black;
-    padding: 0;
-}
-.charImg img {
-    /* width: 100%; */
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.charName h4 {
-    margin:0;
-    text-align: center;
-    font-weight: 500;
-}
-
-
-#chapterInfo img {width: 75%; margin: auto 0;}
-
-
-label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-height: 1rem;}
-#chapterInfo h4 {width: auto 0; border: none; margin: auto 0; font-size: 1rem; line-height: 1rem; text-align: right; font-weight: normal;}
-
-
-
-
-
-
-
-
-/* .moreStats {
-    text-align: center; 
-    width: 610px; 
-    height: 100%; 
-    padding: 0; 
-    margin: auto; 
-    margin-bottom: 5rem;
-}
-
-.moreStats .abilities {
-    color: black; 
-    width: 100%; 
-    padding: 0; 
-    margin: 0; 
-    text-align: left; 
-    outline: 2px solid black;
-}
-
-#abilityType {
-    text-align: left;
-    background-color: #0A4B85; 
-    color: white; 
-    border-bottom: 2px solid white;
-}
-
-#abilityType:last-child {border-bottom: none;}
-#abilityType:hover {background-color: #ececec; color: black;}
-
-#abilityInfo {
-    text-align: left; 
-    display: grid; 
-    grid-template-columns: 1fr;
-}
-
-
-.level h4, .percent h4 {
-    display: inline-block; 
-    font-weight: 500; 
-    margin: 0;
-}
-
-.abilityN h4 {
-    display: inline-block; 
-    margin: 0; 
-    text-transform: uppercase;
-}
-
-.abilityN, #abilityInfo {padding: 3% 5%; margin: auto 0;}
-
-#abilityType {display: grid; grid-template-columns: 65% 35%;} */
-
-
-
-
-  #rise-title {
-    color: #3C64C3;
-    margin-bottom: 0.3rem;
-}
-
-.home-h2 {
-    font-family: 'Nunito Sans', sans-serif;
-    color: #10718A;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 400;
-    margin: 0;
-    /* padding: 1rem; */
-    /* margin: 0; */
-}
-
-
-.landingSection {
-    padding: 3rem 0;
-    background-color: rgb(241, 241, 241);
-}
-
-.seriesSection {
-    background-color: rgb(241, 241, 241);
-    height: 100%;
-    margin: 0;
-    padding-top:2rem;
-}
-
-.seriesSection #rise-title {margin-top: 0;}
-
-
-
-
-
-
-
-
-
-
-/* @media screen and (max-width: 640px) { */
 @media screen and (max-width: 650px) {
 
-    /* NAVIGATION */
+/* NAVIGATION */
     .wrapper {
         width: 100%;
         z-index: 100;
@@ -324,10 +36,7 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         transition: 0.5s;
     }
 
-    .open:hover {
-        color: black;
-
-    }
+    .open:hover {color: black;}
 
     .nav {
         width: 0;
@@ -386,26 +95,21 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         padding-bottom: 1rem;
     }
 
-    .nav-phoenix:hover {
-        background-color: transparent;
-    }
+    .nav-phoenix:hover {background-color: transparent;}
 
     .nav-item {
         padding: 1rem 0;
         border-top: 1px solid black;
     }
 
-    .nav-item-last {
-        border-bottom: 1px solid black
-    }
+    .nav-item-last {border-bottom: 1px solid black}
 
 
 
-
-    /* HERO - LANDING */
+/* HERO */
     .mobile-hero-img {width: 100%;}
-
     .tablet-hero-img {display: none;}
+    .hero-img {display: none;}
 
     .hero {
         position: relative;
@@ -416,13 +120,6 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         font-weight: 400;
     }
 
-    /* .hero-text {
-        position: absolute;
-        top: 25%;
-        right: 8%;
-    } */
-
-
     .hero-text {
         position: absolute;
         text-align: center;
@@ -432,7 +129,6 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         top: 43%;
         left: 0%;
     }
-
 
     .hero-text .margin-0 {margin: 10px;}
 
@@ -452,23 +148,56 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         cursor: pointer;
     }
 
-    .hero-img {
-        display: none;
+
+
+/* IMAGES, TEXT, BTNS */ 
+    .home-h1 {
+        font-family: 'Cinzel', serif;
+        color: red;
+        text-align: center;
+        padding: 1rem;
+        margin-bottom: 0.3rem;
+        font-size: 2rem;
+        line-height: normal;
     }
-    .hero-img-large {
-        display: none;
+
+    .home-h2 {
+        font-family: 'Nunito Sans', sans-serif;
+        color: #10718A;
+        text-transform: uppercase;
+        text-align: center;
+        /* font-size: 2rem; */
+        font-size: 1.5rem;
+        line-height: 2rem;
+        font-weight: 400;
+        margin: 0;
     }
 
+    #rise-title {
+        color: #3C64C3;
+        margin-bottom: 0.3rem;
+    }
 
+    .seriesSection #rise-title {margin-top: 0;}
 
-    /* IMAGES, TEXT, BTNS */
+    .landingSection {
+        padding: 3rem 0;
+        background-color: rgb(241, 241, 241);
+    }
+
+    .seriesSection {
+        background-color: rgb(241, 241, 241);
+        height: 100%;
+        margin: 0;
+        padding-top: 2rem;
+    }
+
     .home-books {
         padding: 2rem;
         font-size: 1rem;
     }
 
     .home-book-img {width: 75%; margin-left: auto; margin-right: auto;}
-
 
     .book-img {
         display: block;
@@ -484,47 +213,15 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         width: 75%;
     }
 
-    .home-h1 {
-        font-family: 'Cinzel', serif;
-        color: red;
-        text-align: center;
-        font-size: 2.5rem;
-        line-height: 2.8rem;
-        padding: 1rem;
-        margin-bottom: 0.3rem;
-
-        font-size: 2rem;
-        line-height: normal;
-
-    }
-
-    .home-h2 {
-        font-family: 'Nunito Sans', sans-serif;
-        color: #10718A;
-        text-transform: uppercase;
-        text-align: center;
-        /* font-size: 2rem; */
-        font-size: 1.5rem;
-        line-height: 2rem;
-        font-weight: 400;
-        margin: 0;
-        /* padding: 1rem; */
-        /* margin: 0; */
-    }
-
-
     .about-books {
         width: 100%;
         display: block;
     }
-/* 
-    .about-books-img {
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-    } */
 
     .about-books-img {
+        /* width: 50%;
+        margin-left: auto;
+        margin-right: auto; */
         width: 60%;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -532,14 +229,8 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         margin: 0 auto;
     }
 
-    .about-books img {
-        width: 100%;
-    }
-
-
-    .tablet-about-books {
-        display: none;
-    }
+    .about-books img {width: 100%;}
+    .tablet-about-books {display: none;}
 
     .learn-btn-div {
         display: flex;
@@ -565,13 +256,14 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
 
 
 
-    /* STATS LANDING */
-
+/* STATS LANDING */
     .select {
         max-width: 300px;
         margin: auto;
+        text-align: center;
+        font-size: 1.2rem;
     }
-    
+ 
     .cards {
         width: 90%;
         margin: auto;
@@ -582,10 +274,59 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         max-width: 300px;
     }
 
-    .card {margin: auto; margin-bottom: 20px;}
+    .card {
+        margin: auto;
+        transition: 0.3s;
+        width: 95%;
+        background-color: black;
+        border-radius: 2% 2%;
+        margin-bottom: 20px;
+    }
+
+    .card img {border-bottom: 2px solid white;}
+
+    .container {
+        /* padding: 0% 0% 8% 0%; */
+        color: white;
+        text-align: center;
+        height: 130px;
+    }
+    
+    .container h4 {
+      font-family: 'Cinzel', serif;
+      font-size: 1.2rem;
+      font-weight: normal;
+    }
+
+    .container button {
+      width: 90%;
+      height: 50px;
+      outline: none;
+      border: none;
+      background-color: white;
+      border-radius: 5px;
+      font-size: 1rem;
+      color: black;
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight: 300;
+    }
+
+    .container button:hover {
+      background-color: rgb(233, 233, 233);
+      color: black;
+      cursor: pointer;
+    }
 
 
-    /* STATS */
+/* STATS */
+    .back {margin-left: 2rem;}
+
+    .back a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.2rem;
+    }
+    .back a:hover {color: red;}
 
     #selection {
         /* display: grid;  */
@@ -598,35 +339,119 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
     }
     /* #selection img {width: 50px; height: 50px; margin: auto; border-radius: 5px; padding: 0; margin: 0;} */
     
-    #selection select {width: 100%; height: 50px;}
-
-    .character, .moreStats {
-        max-width: 450px;
+    #selection select {
+        height: 50px;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: #fff; 
+        outline: none;
     }
+
+    .dropdown {
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    #chapterlist {
+        margin: 0 auto;
+        text-align: center;
+        line-height: 1rem;
+        font-size: 1rem;
+        padding: 10px 0;
+        width: 300px;
+    }
+
+    #chapTitle {
+        text-align: center; 
+        font-family: 'Nunito Sans', 
+        sans-serif; 
+        font-size: 2rem; 
+        font-weight: 500; 
+        margin-bottom: 1rem;
+    }
+
+    .character, .moreStats {max-width: 450px;}
 
     .character {
         display: grid;
         grid-template-columns: 1fr;
         margin: 0 auto;
-        margin-bottom: 2rem;
         padding: 0 5%;
+        padding-bottom: 3.5rem;
     }
 
-    .charImg {grid-area: 1;}
+    .charImg {
+        grid-area: 1;
+        width: 99%;
+        height: 98.6%;
+        border: 2px solid black;
+        padding: 0;
+    }
+
+    .charImg img {
+        /* width: 100%; */
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
 
     #chapterInfo {
         border: 2px solid black;
         display: grid;
         grid-template-columns: 12% 42% 42%;
-        height: 100%;
+        height: 120%;
         padding: 3%;
-        grid-area:3;
+        grid-area: 3;
     }
 
-    .charName {grid-area: 2;}
+    #chapterInfo img {
+        width: 75%; 
+        margin: auto 0;
+    }
+
+    #chapterInfo label {
+        margin: auto 0; 
+        width: auto; 
+        font-size: 1rem; 
+        text-align: left; 
+        line-height: 1rem;
+    }
+
+    #chapterInfo h4 {
+        width: auto 0; 
+        border: none; 
+        margin: auto 0; 
+        font-size: 1rem; 
+        line-height: 1rem; 
+        text-align: right; 
+        font-weight: normal;
+    }
 
 
-    /* STATS: SPECIAL ABILITITES */
+    .charName {
+        grid-area: 2; 
+        padding-top: 10px; 
+        padding-bottom: 20px;
+    }
+
+    .charName h4 {
+        margin: 0;
+        text-align: center;
+        font-weight: 500;
+    }
+
+
+/* STATS: SPECIAL ABILITITES */
+    .dropdown h2, .moreStats h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 0;
+        font-weight: 500;
+    }
+
+    .moreStats h2 {margin-bottom: 1rem;}
+
     .moreStats {
         text-align: center; 
         color: black;
@@ -654,7 +479,6 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         border-bottom: 2px solid white;
     }
 
-
     #abilityType:last-child {border-bottom: none;}
     #abilityType:hover {background-color: #ececec; color: black;}
 
@@ -662,9 +486,6 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         text-align: center; 
         display: block; 
     }
-
-
-    .level, .percent {text-align: center;}
 
     .level h4, .percent h4 {
         display: inline-block; 
@@ -682,58 +503,11 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
     .abilityN {padding-bottom: 0;}
     #abilityInfo {padding-top: 1%;}
 
-
-
     .level, .percent {text-align: center; display: inline-block;}
     .level {padding-right: 5%;}
 
 
-    /* .moreStats {
-        color: black; 
-        text-align: center; 
-        width: 90%; 
-        margin-top: 4rem;
-    } */
-
-    /* .moreStats .abilities {
-        color: black; 
-        width: 100%; 
-        padding: 0; 
-        margin: 0; 
-        text-align: left; 
-        outline: 2px solid black;
-    } */
-
-    /* #abilityType {
-        display: grid; 
-        grid-template-columns: 1fr;
-        text-align: center;
-        background-color: #0A4B85; 
-        color: white; 
-        border-bottom: 2px solid white;
-    } */
-
-    /* #abilityType:last-child {border-bottom: none;}
-    #abilityType:hover {background-color: #ececec; color: black;}
-
-    #abilityInfo {text-align: center; display: block} */
-
-
-    /* .level, .percent {text-align: center;}
-    .abilityN h4, .level h4, .percent h4 {
-        display: inline-block; 
-        font-weight: 500; 
-        margin: 0;
-    } */
-
-    /* .abilityN h4 {text-transform: uppercase;}
-
-    .abilityN, #abilityInfo {padding: 2%;}
-    .abilityN {padding-bottom: 0%;} */
-
-
-
-    /* FAN ART PAGE */
+/* FAN ART PAGE */
     .thankyou {
         padding: 0% 6%;
         margin: auto;
@@ -766,8 +540,7 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
     }
 
 
-
-    /* FOOTER */
+/* FOOTER */
     footer {
         background-color: black;
         color: white;
@@ -784,9 +557,7 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         cursor: pointer;
     }
 
-    i {
-        color: white;
-    }
+    i {color: white;}
 
     .footer-icons i p {
         font-family: 'Nunito Sans', sans-serif;
@@ -795,11 +566,12 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         color: white;
     }
 
-    .copyright {
-        text-align: center;
-    }
+    .copyright {text-align: center;}
 
 }
+
+
+
 
 
 
@@ -808,7 +580,7 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
 /* @media screen and (min-width: 641px) { */
 @media screen and (min-width: 651px) {
 
-    /* NAV */
+/* NAV */
     .wrapper {
         width: 100%;
         z-index: 100;
@@ -839,7 +611,6 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
     }
 
     .nav-item:hover {color: red;}
-
     .nav-item.active {color: red;}
 
     .nav-phoenix {
@@ -849,7 +620,7 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
     }
 
 
-    /* HERO - LANDING */
+/* HERO - LANDING */
     .hero {width: 100%;}
 
     .hero-text {
@@ -860,10 +631,6 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         margin: 0;
         text-align: center;
         line-height: normal;
-    }
-
-    .hero-text {
-        position: absolute;
         width: 390px;
         line-height: 2.8rem;
         top: 30%;
@@ -888,29 +655,18 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         cursor: pointer;
     }
 
-    .hero-img-div {
-        width: 100%;
-    }
+    .hero-img-div { width: 100%;}
 
-    .mobile-hero-img {
-        display: none;
-    }
+    .mobile-hero-img {display: none;}
+    .hero-img {display: none;}
 
     .tablet-hero-img {
         display: block;
         width: 100%;
     }
 
-    .hero-img {
-        display: none;
-    }
 
-    .hero-img-large {
-        display: none;
-    }
-
-
-    /* IMAGES, TEXT, BTNS */
+/* IMAGES, TEXT, BTNS */
     .home-books {
         width: 100%;
         display: flex;
@@ -919,25 +675,25 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         font-size: 1rem;
     }
 
-    /* .home-books img {
+
+    .home-books img {
         width: 33%;
         height: 33%;
-    } */
+    }
 
     .home-books-tablet img {
         width: 100%;
         height: 100%;
     }
 
-    /* .home-book-img {
-        width: 100rem;
-    } */
+    .home-book-img {width: 100rem;}
 
     .book-img, .home-book-img {
         width: 75rem;
         padding: 3rem;
         max-width: 300px;
     }
+
     .book-img, .home-book-img img {width: 100%;}
 
     .author-img {
@@ -961,16 +717,35 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         font-size: 2rem;
         font-weight: 400;
         margin: 0;
-        /* padding: 1rem; */
-        /* margin: 0; */
     }
 
-    .book-description-btn {
-        padding: 3rem;
+    #rise-title {
+        color: #3C64C3;
+        margin-bottom: 0.3rem;
     }
+    
+    .seriesSection #rise-title {margin-top: 0;}
+
+
+    .landingSection {
+        padding: 3rem 0;
+        background-color: rgb(241, 241, 241);
+    }
+
+    .seriesSection {
+        background-color: rgb(241, 241, 241);
+        height: 100%;
+        margin: 0;
+        padding-top: 2rem;
+        padding-bottom: 0rem;
+        max-height: 610px;
+    }
+
+    .book-description-btn {padding: 3rem;}
 
     .home-books img {
         width: 100%;
+        /* max-width: 280px; */
     }
 
     .about-books {
@@ -978,38 +753,22 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         display: block;
     }
 
-    /* .about-books-img {
-        width: 90%;
-        width: 50%;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap: 0rem;
-        margin: auto;
-    } */
-
-
     .about-books-img {
-        width: 90%;
         width: 50%;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 0rem;
         margin: 0 auto;
-        max-width: 900px;
         max-width: 500px;
     }
 
-    /* .about-books-img img {width: 100%; max-width: 300px;} */
-
     .about-books img {
         width: 100%;
+        max-width: 300px;
         margin: auto;
     }
 
-
-    .mobile-about-books {
-        display: none;
-    }
+    .mobile-about-books {display: none;}
 
     .learn-btn-div {
         display: flex;
@@ -1034,7 +793,78 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
     }
 
 
-    /* STATS */
+/* STATS LANDING */
+    .select {
+        margin: auto;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .cards {
+        margin: auto;
+        margin-bottom: 11rem;
+        width: 90%;
+        max-width: 900px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 2rem 0;
+    }
+
+    .card {
+        margin: auto;
+        transition: 0.3s;
+        width: 95%;
+        background-color: black;
+        border-radius: 2% 2%;
+    }
+
+    .card img {border-bottom: 2px solid white;}
+
+    .container {
+        /* padding: 0% 0% 8% 0%; */
+        color: white;
+        text-align: center;
+        height: 130px;
+    }
+
+    .container h4 {
+        font-family: 'Cinzel', serif;
+        font-size: 1.2rem;
+        font-weight: normal;
+      }
+    
+    .container button {
+        width: 90%;
+        height: 50px;
+        /* padding: .25rem .5rem; */
+        outline: none;
+        border: none;
+        background-color: white;
+        border-radius: 5px;
+        font-size: 1rem;
+        color: black;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 300;
+    }
+
+    .container button:hover {
+        background-color: rgb(233, 233, 233);
+        color: black;
+        cursor: pointer;
+    }
+
+
+/* STATS */
+    .back {margin-left: 2rem;}
+
+    .back a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.2rem;
+    }
+    .back a:hover {color: red;}
+    
+      
     #selection {
         /* display: grid; 
         grid-template-columns: 50px 330px;   */
@@ -1043,10 +873,115 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         height: 50px; 
         /* grid-column-gap: 2%; */
     }
-    /* #selection img {width: 50px; height: auto; margin: auto; border-radius: 5px;} */
-    select {height: 50px;}
 
-    /* STATS: SPECIAL ABILITITES */
+    .dropdown {
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    
+    /* #selection img {width: 50px; height: auto; margin: auto; border-radius: 5px;} */
+
+    #selection select {
+        /* width: 100%;  */
+        height: 50px;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: #fff; 
+        outline: none;
+    }
+
+    #chapterlist {
+        margin: 0 auto;
+        text-align: center;
+        line-height: 1rem;
+        font-size: 1rem;
+        padding: 10px 0;
+        width: 300px;
+    }
+
+    #chapTitle {
+        text-align: center; 
+        font-family: 'Nunito Sans', 
+        sans-serif; 
+        font-size: 2rem; 
+        font-weight: 500; 
+        margin-bottom: 1rem;
+    }
+
+    .character {
+        display: grid;
+        /* grid-template-columns: 350px 350px; */
+        grid-template-columns: 300px 300px;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        margin: .5rem auto .8rem auto;
+        justify-content: center;
+    }
+
+    .charImg {
+        width: 99%;
+        height: 98.6%;
+        border: 2px solid black;
+        padding: 0;
+    }
+
+    .charImg img {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    #chapterInfo {
+        border: 2px solid black;
+        display: grid;
+        grid-template-columns: 12% 42% 42%;
+        padding: 3%;
+    }
+
+    #chapterInfo img {
+        width: 75%; 
+        margin: auto 0;
+    }
+
+    #chapterInfo label {
+        margin: auto 0; 
+        width: auto; 
+        font-size: 1rem; 
+        text-align: left; 
+        line-height: 1rem;
+    }
+
+    #chapterInfo h4 {
+        width: auto 0; 
+        border: none; 
+        margin: auto 0; 
+        font-size: 1rem; 
+        line-height: 1rem; 
+        text-align: right; 
+        font-weight: normal;
+    }
+
+
+    .charName h4 {
+        margin:0;
+        text-align: center;
+        font-weight: 500;
+    }
+
+
+
+/* STATS: SPECIAL ABILITITES */
+    .dropdown h2, .moreStats h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 0;
+        font-weight: 500;
+    }
+    
+    .moreStats h2 {margin-bottom: 1rem;}
+    
     .moreStats {
         text-align: center; 
         width: 610px; 
@@ -1095,19 +1030,24 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         text-transform: uppercase;
     }
     
-    .abilityN, #abilityInfo {padding: 3% 5%; margin: auto 0;}
+    .abilityN, #abilityInfo {
+        padding: 3% 5%; 
+        margin: auto 0;
+    }
     
-    #abilityType {display: grid; grid-template-columns: 65% 35%;}
+    #abilityType {
+        display: grid; 
+        grid-template-columns: 65% 35%;
+    }
 
 
-
-    /* FAN ART PAGE */
+/* FAN ART PAGE */
     .thankyou {
         width: 620px;
         margin: auto;
     }
     
-    .gallery {padding: 2%;}
+    .gallery {padding-bottom: 2%;}
     
     .slider-for{
         width: 620px;
@@ -1149,9 +1089,7 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         cursor: pointer;
     }
 
-    i {
-        color: white;
-    }
+    i {color: white;}
 
     .footer-icons i p {
         font-family: 'Nunito Sans', sans-serif;
@@ -1160,10 +1098,10 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
         color: white;
     }
 
-    .copyright {
-        text-align: center;
-    }
+    .copyright {text-align: center;}
 }
+
+
 
 
 
@@ -1172,51 +1110,28 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
 
 @media screen and (min-width: 850px) {
 
-    /* HERO */
+/* HERO */
     .hero-text {
-        position: absolute;
         width: 430px;
         font-size: 3.25rem;
         line-height: 3.4rem;
-
         top: 42%;
         left: 5%;
     }
 
-    .hero-img-large {
-        display: none;
-    }
 
+/* STATS */
+    .cards {margin-bottom: 8.6rem;}
 
-    /* FAN ART PAGE */
-    .thankyou {
-    	width: 800px;
-        margin: auto;
-    }
-
-    .gallery {padding: 2%;}
+/* FAN ART PAGE */
+    .thankyou {width: 800px;}
 
     .slider-for{
     	width: 800px;
     	height: 580px;
-    	margin: 0 auto;
-    	overflow: hidden;
-    	border: none;
-    	border-radius: 0px 0px 0px 0px;
-        box-shadow: none;
     }
 
-    img{
-    	width: 100%;
-    	max-height: 800px;
-    }
-    .slider-nav{
-    	width: 780px;
-    	margin: auto;
-    	padding: 0px 50px 0px 50px;
-    	display: block;
-        opacity: .7; 
-    }
+    .slider-nav{width: 780px;}
 }
 
 
@@ -1225,29 +1140,21 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
 
 
 
-@media screen and (min-width: 1090px) {
-/* @media screen and (min-width: 1201px) { */
-/* @media screen and (max-width: 1399px) { */
 
-    /* NAV */
+/* @media screen and (min-width: 1201px) { */
+@media screen and (min-width: 1090px) {
+
+/* NAV */
     .nav-phoenix {
         width: 200px;
         padding: .6rem 2rem;
     }
 
-    .nav {
-        padding: 2.5rem 2rem;
-    }
+    .nav {padding: 2.5rem 2rem;}
 
 
-    /* HERO */
-    .hero-img-large {
-        display: none;
-    }
-
-    .tablet-hero-img {
-        display: none;
-    }
+/* HERO */
+    .tablet-hero-img {display: none;}
 
     .hero-img {
         display: block;
@@ -1255,32 +1162,18 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
     }
 
     .hero-text {
-        position: absolute;
-        color: white;
-        font-family: 'Cinzel', serif;
         font-size: 3rem;
         line-height: 3.2rem;
-        /* top: 38%;
-        top: 35%;
-        left: 15%; */
-        text-align: center;
         width: 500px;
-
         top: 30%;
         left: 35%;
     }
+  
 
+/* IMAGES, TEXT, BTNS */
+    .home-books {align-items: center;}
 
-
-    /* IMAGES, TEXT, BTNS */
-    .home-books {
-        align-items: center;
-    }
-
-
-    .book-img {
-        padding: 5rem;
-    }
+    .book-img {padding: 5rem;}
 
     .book-description-btn {
         align-self: flex-start;
@@ -1305,46 +1198,16 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
     }
 
 
-
-    /* FAN ART PAGE */
-    .thankyou {
-        width: 800px;
-    }
-
-    .gallery {
-        padding: 2%;
-    }
-
-    .slider-for{
-        width: 800px;
-        height: 580px;
-        margin: 0 auto;
-        overflow: hidden;
-        border: none;
-        border-radius: 0px 0px 0px 0px;
-        box-shadow: none;
-    }
-
-    img{
-        width: 100%;
-        max-height: 800px;
-    }
-
-    .slider-nav{
-        width: 780px;
-        margin: auto;
-        padding: 0px 50px 0px 50px;
-        display: block;
-        opacity: .7; 
-    }
+/* STATS */
+    .cards {margin-bottom: 8.6rem;}
 
 
-    /* FOOTER */
-    footer {
-        padding: 1rem 20rem;
-    }
+/* FOOTER */
+    footer {padding: 1rem 20rem;}
 
 }
+
+
 
 
 
@@ -1352,71 +1215,17 @@ label {margin: auto 0; width: auto; font-size: 1rem; text-align: left; line-heig
 
 
 @media screen and (min-width: 1600px) {
-/* @media screen and (max-width: 1650px) { */
 
-    /* HERO */
-    .tablet-hero-img {
-        display: none;
-    }
-    
-    .hero-img {
-        display: none;
-    }
-    
-    .hero-img {
-        display: block;
-        width: 100%;
-        margin: auto;
-    }
-    
-    
+/* HERO */      
     .hero-text {
-        position: absolute;
-        color: white;
-        font-family: 'Cinzel', serif;
-        text-align: center;
         width: 600px;
-    
         font-size: 4rem;
         line-height: 4.2rem;
-        /* top: 44%;
-        /* left: 15%; */
         top: 35%;
         left: 40%;
-    }    
-
-    
-    /* FAN ART PAGE */
-    .gallery {
-        padding: 2%;
-    }
-
-    .slider-for{
-    	width: 800px;
-    	height: 580px;
-    
-    	margin: 0 auto;
-    	overflow: hidden;
-    	border: none;
-    	border-radius: 0px 0px 0px 0px;
-        box-shadow: none;
-    }
-
-    img{
-    	width: 100%;
-    	max-height: 800px;
-    }
-    .slider-nav{
-        width: 800px;
-    	margin: auto;
-    	padding: 0px 20px 0px 20px;
-    	display: block;
-        opacity: .7; 
-    }
-
+    }  
 }
 
 
 
-.moreStats h2 { font-weight: 500;}
 
