@@ -329,15 +329,11 @@ html, body {
     .back a:hover {color: red;}
 
     #selection {
-        /* display: grid;  */
-        /* grid-template-columns: 50px 230px;   */
         width: 280px;
         max-width: 450px; 
         margin: auto; 
         height: 50px; 
-        /* grid-column-gap: 2%; */
     }
-    /* #selection img {width: 50px; height: 50px; margin: auto; border-radius: 5px; padding: 0; margin: 0;} */
     
     #selection select {
         height: 50px;
@@ -866,12 +862,9 @@ html, body {
     
       
     #selection {
-        /* display: grid; 
-        grid-template-columns: 50px 330px;   */
         width: 390px; 
         margin: auto; 
         height: 50px; 
-        /* grid-column-gap: 2%; */
     }
 
     .dropdown {
@@ -879,8 +872,7 @@ html, body {
         width: 100%;
         text-align: center;
     }
-    
-    /* #selection img {width: 50px; height: auto; margin: auto; border-radius: 5px;} */
+
 
     #selection select {
         /* width: 100%;  */
@@ -1225,7 +1217,3 @@ html, body {
         left: 40%;
     }  
 }
-
-
-
-
