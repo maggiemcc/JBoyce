@@ -15,7 +15,8 @@ html, body {
 
 
 
-@media screen and (max-width: 650px) {
+/* @media screen and (max-width: 650px) { */
+    @media screen and (max-width: 664px) {
 
 /* NAVIGATION */
     .wrapper {
@@ -584,7 +585,8 @@ html, body {
 
 
 /* @media screen and (min-width: 641px) { */
-@media screen and (min-width: 651px) {
+/* @media screen and (min-width: 651px) { */
+    @media screen and (min-width: 665px) {
 
 /* NAV */
     .wrapper {
