@@ -12,9 +12,6 @@ html, body {
 
 
 
-
-
-
 /* @media screen and (max-width: 650px) { */
     @media screen and (max-width: 664px) {
 
@@ -129,13 +126,9 @@ html, body {
         width: 200px;
         margin: 0 auto;
         line-height: 1.5rem;
-        /* top: 43%; */
-        /* left: 0%; */
-
         top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
-        /* border: 1px solid pink; */
     }
 
     .hero-text .margin-0 {margin: 10px;}
@@ -174,7 +167,6 @@ html, body {
         color: #10718A;
         text-transform: uppercase;
         text-align: center;
-        /* font-size: 2rem; */
         font-size: 1.5rem;
         line-height: 2rem;
         font-weight: 400;
@@ -227,9 +219,6 @@ html, body {
     }
 
     .about-books-img {
-        /* width: 50%;
-        margin-left: auto;
-        margin-right: auto; */
         width: 60%;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -294,7 +283,6 @@ html, body {
     .card img {border-bottom: 2px solid white;}
 
     .container {
-        /* padding: 0% 0% 8% 0%; */
         color: white;
         text-align: center;
         height: 130px;
@@ -354,13 +342,6 @@ html, body {
         width: 95%;
     }
 
-    /* .dropdown {
-        margin: auto;
-        width: 100%;
-        text-align: center;
-        border: 1px solid blue;
-    } */
-
     #chapterlist {
         margin: 0 auto;
         text-align: center;
@@ -398,7 +379,6 @@ html, body {
     }
 
     .charImg img {
-        /* width: 100%; */
         height: 100%;
         margin: 0;
         padding: 0;
@@ -583,8 +563,6 @@ html, body {
 
 
 
-
-
 /* @media screen and (min-width: 641px) { */
 /* @media screen and (min-width: 651px) { */
     @media screen and (min-width: 665px) {
@@ -643,21 +621,9 @@ html, body {
         line-height: normal;
         width: 390px;
         line-height: 2.8rem;
-        /* top: 30%;
-        left: 0%; */
-
-
-        /* top: 40%; */
-
-        /* top: 38%; */
-        /* left: 50%; */
-        /* transform: translate(-50%, -50%); */
-
-
         top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
-        /* border: 1px solid green; */
     }
 
     .margin-0 {margin-top: 0; margin-bottom: 15px;}
@@ -766,10 +732,7 @@ html, body {
 
     .book-description-btn {padding: 3rem;}
 
-    .home-books img {
-        width: 100%;
-        /* max-width: 280px; */
-    }
+    .home-books img {width: 100%;}
 
     .about-books {
         width: 100%;
@@ -844,7 +807,6 @@ html, body {
     .card img {border-bottom: 2px solid white;}
 
     .container {
-        /* padding: 0% 0% 8% 0%; */
         color: white;
         text-align: center;
         height: 130px;
@@ -859,7 +821,6 @@ html, body {
     .container button {
         width: 90%;
         height: 50px;
-        /* padding: .25rem .5rem; */
         outline: none;
         border: none;
         background-color: white;
@@ -902,7 +863,6 @@ html, body {
 
 
     #selection select {
-        /* width: 100%;  */
         height: 50px;
         border: 1px solid black;
         border-radius: 5px;
@@ -921,8 +881,7 @@ html, body {
 
     #chapTitle {
         text-align: center; 
-        font-family: 'Nunito Sans', 
-        sans-serif; 
+        font-family: 'Nunito Sans', sans-serif; 
         font-size: 2rem; 
         font-weight: 500; 
         margin-bottom: 1rem;
@@ -1125,8 +1084,6 @@ html, body {
 
 
 
-
-
 @media screen and (min-width: 850px) {
 
 /* HERO */
@@ -1150,8 +1107,6 @@ html, body {
 
     .slider-nav{width: 780px;}
 }
-
-
 
 
 
@@ -1223,8 +1178,6 @@ html, body {
     footer {padding: 1rem 20rem;}
 
 }
-
-
 
 
 
