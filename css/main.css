@@ -643,11 +643,12 @@ html, body {
         left: 0%; */
 
         /* top: 40%; */
+        /* top: 35%; */
 
-        top: 35%;
+        top: 42%;
         left: 50%;
         transform: translate(-50%, -50%);
-        /* border: 1px solid green; */
+        border: 1px solid green;
     }
 
     .margin-0 {margin-top: 0; margin-bottom: 15px;}
@@ -1128,11 +1129,11 @@ html, body {
         left: 5%; */
 
 
-        top: 42%;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        border: 1px solid pink;
+        /* border: 1px solid pink; */
+        border: none;
     }
 
 
