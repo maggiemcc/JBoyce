@@ -134,7 +134,6 @@ html, body {
         top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
-        /* border: 1px solid red; */
     }
 
     .hero-text .margin-0 {margin: 10px;}
@@ -643,7 +642,9 @@ html, body {
         /* top: 30%;
         left: 0%; */
 
-        top: 40%;
+        /* top: 40%; */
+
+        top: 35%;
         left: 50%;
         transform: translate(-50%, -50%);
         /* border: 1px solid green; */
@@ -1127,7 +1128,7 @@ html, body {
         left: 5%;
 
 
-        top: 47%;
+        top: 42%;
         left: 50%;
         transform: translate(-50%, -50%);
         /* border: 1px solid pink; */
