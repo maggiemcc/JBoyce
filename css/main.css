@@ -645,11 +645,10 @@ html, body {
         left: 0%; */
 
 
-        top: 40%;
-        top:38%;
+        /* top: 40%; */
+        top: 38%;
         left: 50%;
         transform: translate(-50%, -50%);
-        /* border: 1px solid green; */
     }
 
     .margin-0 {margin-top: 0; margin-bottom: 15px;}
@@ -1133,8 +1132,6 @@ html, body {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        /* border: 1px solid pink; */
-        border: none;
     }
 
 
@@ -1186,11 +1183,9 @@ html, body {
         top: 30%;
         left: 35%;
 
-        top: 30%;
+        /* top: 30%; */
         /* left: 50%; */
         transform: none;
-        border: none;;
-        /* border: 1px solid orange; */
     }
   
 
@@ -1247,6 +1242,5 @@ html, body {
         line-height: 4.2rem;
         top: 35%;
         left: 40%;
-        border: none;
     }  
 }
