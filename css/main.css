@@ -223,6 +223,7 @@ html, body {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: .6rem;
+        grid-column-gap: 12%;
         margin: 0 auto;
     }
 
@@ -743,7 +744,7 @@ html, body {
         width: 50%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-column-gap: 0rem;
+        grid-column-gap: 12%;
         margin: 0 auto;
         max-width: 500px;
     }
