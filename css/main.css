@@ -1119,6 +1119,7 @@ html, body {
 
 
 @media screen and (min-width: 850px) {
+    .hero {position: relative;}
 
 /* HERO */
     .hero-text {
