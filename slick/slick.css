@@ -119,6 +119,6 @@
 }
 
 
-/* .slick-slide, .slick-list {
-    margin: 0px;
-} */
+
+/* .slick-slide.slick-active {opacity: 1;}
+.slick-slide.slick-current.slick-active {opacity: 1;} */
