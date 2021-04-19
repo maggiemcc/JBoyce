@@ -1204,7 +1204,7 @@ html, body {
 
 
         top: 60%;
-        left: 50%;
+        left: 53%;
         transform: translate(-50%, -50%);
         border: 1px solid blue;
     }
@@ -1261,8 +1261,8 @@ html, body {
         width: 600px;
         font-size: 4rem;
         line-height: 4.2rem;
-        top: 35%;
-        left: 40%;
+        /* top: 35%;
+        left: 40%; */
         border: 1px solid red;
     }  
 }
