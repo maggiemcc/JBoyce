@@ -629,7 +629,8 @@ html, body {
 
 
 /* HERO - LANDING */
-    .hero {width: 100%; text-align: center;}
+    .hero {position: relative; width: 100%; text-align: center;}
+
 
     .hero-text {
         position: absolute;
@@ -1119,7 +1120,6 @@ html, body {
 
 
 @media screen and (min-width: 850px) {
-    .hero {position: relative;}
 
 /* HERO */
     .hero-text {
