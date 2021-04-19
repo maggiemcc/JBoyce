@@ -1187,6 +1187,7 @@ html, body {
         top: 30%;
         /* left: 50%; */
         transform: none;
+        border: none;;
         /* border: 1px solid orange; */
     }
   
