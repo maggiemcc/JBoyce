@@ -7,4 +7,4 @@
 
 
 # Previous Group's Work
--[GitHub Repository](https://github.com/dpenciso/jay-boyce-site)
+[GitHub Repository](https://github.com/dpenciso/jay-boyce-site)
