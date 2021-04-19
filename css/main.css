@@ -1263,5 +1263,6 @@ html, body {
         line-height: 4.2rem;
         top: 35%;
         left: 40%;
+        border: 1px solid red;
     }  
 }
