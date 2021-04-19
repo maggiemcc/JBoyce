@@ -1124,14 +1124,15 @@ html, body {
         width: 430px;
         font-size: 3.25rem;
         line-height: 3.4rem;
-        top: 42%;
-        left: 5%;
+        /* top: 42%;
+        left: 5%; */
 
 
         top: 42%;
+        top: 47%;
         left: 50%;
         transform: translate(-50%, -50%);
-        /* border: 1px solid pink; */
+        border: 1px solid pink;
     }
 
 
@@ -1243,5 +1244,6 @@ html, body {
         line-height: 4.2rem;
         top: 35%;
         left: 40%;
+        border: none;
     }  
 }
