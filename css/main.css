@@ -70,7 +70,7 @@ html, body {
         margin-right: 1rem;
         display: block;
         cursor: pointer;
-        padding-top: 0rem;
+        padding-top: 1rem;
         font-family: 'Nunito Sans', sans-serif;
         font-weight: 300;
     }
