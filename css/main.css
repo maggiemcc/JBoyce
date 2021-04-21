@@ -1059,8 +1059,7 @@ html, body {
         background-color: black;
         color: white;
         padding: 1rem 10rem;
-        margin-top: 5rem;
-
+        /* margin-top: 5rem; */
     }
 
     .footer-icons {
