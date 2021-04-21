@@ -971,7 +971,7 @@ html, body {
         padding: 0; 
         margin: auto; 
         margin-top: 2rem;
-        /* margin-bottom: 5rem; */
+        margin-bottom: 3rem;
     }
     
     .moreStats .abilities {
