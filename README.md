@@ -7,5 +7,5 @@
 
 
 # Previous Group's Work
--[GitHub Repository - Group 1](https://github.com/tyelf22/jay-boyce)
--[GitHub Repository - Group 2](https://github.com/dpenciso/jay-boyce-site)
+-[GitHub Repo: Group 1](https://github.com/tyelf22/jay-boyce)
+-[GitHub Repo: Group 2](https://github.com/dpenciso/jay-boyce-site)
