@@ -567,6 +567,7 @@ html, body {
 /* @media screen and (min-width: 641px) { */
 /* @media screen and (min-width: 651px) { */
     @media screen and (min-width: 665px) {
+        html, body {height: 100%; margin: 0;}
 
 /* NAV */
     .wrapper {
@@ -787,9 +788,10 @@ html, body {
         font-size: 1.2rem;
     }
 
+
     .cards {
         margin: auto;
-        margin-bottom: 11rem;
+        /* margin-bottom: 11rem; */
         width: 90%;
         max-width: 900px;
         display: grid;
@@ -1078,6 +1080,24 @@ html, body {
     }
 
     .copyright {text-align: center;}
+
+
+
+    html {height: 100%;}
+
+    .content {
+        height: 100%;
+        display: grid;
+        grid-template-rows: 1fr auto;
+    }
+
+    .push {grid-row-start: 1;}
+
+    .bottom {
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
 }
 
 
@@ -1096,7 +1116,7 @@ html, body {
 
 
 /* STATS */
-    .cards {margin-bottom: 8.6rem;}
+    /* .cards {margin-bottom: 8.6rem;} */
 
 /* FAN ART PAGE */
     .thankyou {width: 800px;}
@@ -1172,7 +1192,7 @@ html, body {
 
 
 /* STATS */
-    .cards {margin-bottom: 8.6rem;}
+    /* .cards {margin-bottom: 8.6rem;} */
 
 
 /* FOOTER */
