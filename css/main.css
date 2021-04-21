@@ -967,7 +967,7 @@ html, body {
     .moreStats {
         text-align: center; 
         width: 610px; 
-        height: 100%; 
+        /* height: 100%;  */
         padding: 0; 
         margin: auto; 
         margin-top: 2rem;
