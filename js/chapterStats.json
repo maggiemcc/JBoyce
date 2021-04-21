@@ -85,73 +85,73 @@
 
     "ability 1": {
       "ability": "Appraisal",
-      "level": "Novice",
+      "level": "N/A",
       "percentage": "0%"
     },
 
     "ability 2": {
       "ability": "Athletics",
-      "level": "Novice",
+      "level": "N/A",
       "percentage": "0%"
     },
 
     "ability 3": {
       "ability": "Bluff",
-      "level": "Novice",
+      "level": "N/A",
       "percentage": "0%"
     },
 
     "ability 4": {
       "ability": "Diplomacy",
-      "level": "Novice",
+      "level": "N/A",
       "percentage": "0%"
     },
 
     "ability 5": {
       "ability": "Healing Magic",
-      "level": "Novice",
-      " percentage": "0%"
+      "level": "N/A",
+      "percentage": "0%"
     },
 
     "ability 6": {
       "ability": "Insight",
-      "level": "Novice",
+      "level": "N/A",
       "percentage": "0%"
     },
 
     "ability 7": {
       "ability": "Mathematics",
-      "level": "Novice",
+      "level": "N/A",
       "percentage": "0%"
     },
 
     "ability 8": {
       "ability": "Navigation",
-      "level": "Novice",
+      "level": "N/A",
       "percentage": "0%"
     },
 
     "ability 9": {
       "ability": "Perception",
-      "level": "Novice",
+      "level": "N/A",
       "percentage": "0%"
     },
 
     "ability 10": {
       "ability": "Sense Motive",
-      "level": "Novice",
+      "level": "N/A",
       "percentage": "0%"
     },
 
     "ability 11": {
       "ability": "Walking",
-      "level": "Novice",
+      "level": "N/A",
       "percentage": "0%"
     },
 
     "ability 12": {
       "ability": "Wind Magic",
-      "level": "Novice",
+      "level": "N/A",
       "percentage": "0%"
     }
   },
