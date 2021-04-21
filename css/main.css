@@ -188,7 +188,7 @@ html, body {
 
     .seriesSection {
         background-color: rgb(241, 241, 241);
-        height: 100%;
+        /* height: 100%; */
         margin: 0;
         padding-top: 2rem;
     }
@@ -726,11 +726,11 @@ html, body {
 
     .seriesSection {
         background-color: rgb(241, 241, 241);
-        height: 100%;
+        /* height: 100%; */
         margin: 0;
         padding-top: 2rem;
         padding-bottom: 0rem;
-        /* max-height: 610px; */
+        max-height: 700px;
     }
 
     .book-description-btn {padding: 3rem;}
@@ -1128,6 +1128,10 @@ html, body {
     }
 
     .slider-nav{width: 780px;}
+
+    .seriesSection {
+        max-height: none;
+    }
 }
 
 
