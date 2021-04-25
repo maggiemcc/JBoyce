@@ -13,8 +13,7 @@ html, body {
 
 
 
-/* @media screen and (max-width: 650px) { */
-    @media screen and (max-width: 664px) {
+@media screen and (max-width: 664px) {
 
 /* NAVIGATION */
     .wrapper {
@@ -409,7 +408,7 @@ html, body {
     }
 
     #chapterInfo h4 {
-        width: auto 0; 
+        /* width: auto 0;  */
         border: none; 
         margin: auto 0; 
         font-size: 1rem; 
@@ -510,7 +509,7 @@ html, body {
     .slider-for{
     	width: 100%;
     	height: auto;
-        max-height: auto;
+        /* max-height: auto; */
         margin: 0 auto;
     	overflow: hidden;
     	border: none;
@@ -518,7 +517,6 @@ html, body {
 
     img{
         width: 100%;
-    	max-height: auto;
     }
 
     .slider-nav{
@@ -563,11 +561,7 @@ html, body {
 
 
 
-
-
-/* @media screen and (min-width: 641px) { */
-/* @media screen and (min-width: 651px) { */
-    @media screen and (min-width: 665px) {
+@media screen and (min-width: 665px) {
         html, body {height: 100%; margin: 0;}
 
 /* NAV */
@@ -792,7 +786,6 @@ html, body {
 
     .cards {
         margin: auto;
-        /* margin-bottom: 11rem; */
         width: 90%;
         max-width: 900px;
         display: grid;
@@ -893,7 +886,6 @@ html, body {
 
     .character {
         display: grid;
-        /* grid-template-columns: 350px 350px; */
         grid-template-columns: 300px 300px;
         grid-column-gap: 10px;
         grid-row-gap: 10px;
@@ -929,14 +921,12 @@ html, body {
 
     #chapterInfo label {
         margin: auto 0; 
-        width: auto; 
         font-size: 1rem; 
         text-align: left; 
         line-height: 1rem;
     }
 
     #chapterInfo h4 {
-        width: auto 0; 
         border: none; 
         margin: auto 0; 
         font-size: 1rem; 
@@ -967,7 +957,6 @@ html, body {
     .moreStats {
         text-align: center; 
         width: 610px; 
-        /* height: 100%;  */
         padding: 0; 
         margin: auto; 
         margin-top: 2rem;
@@ -1059,7 +1048,6 @@ html, body {
         background-color: black;
         color: white;
         padding: 1rem 10rem;
-        /* margin-top: 5rem; */
     }
 
     .footer-icons {
@@ -1116,9 +1104,6 @@ html, body {
     }
 
 
-/* STATS */
-    /* .cards {margin-bottom: 8.6rem;} */
-
 /* FAN ART PAGE */
     .thankyou {width: 800px;}
 
@@ -1140,7 +1125,6 @@ html, body {
 
 
 @media screen and (min-width: 1201px) {
-/* @media screen and (min-width: 1090px) { */
 
 /* NAV */
     .nav-phoenix {
@@ -1196,9 +1180,6 @@ html, body {
     }
 
 
-/* STATS */
-    /* .cards {margin-bottom: 8.6rem;} */
-
 
 /* FOOTER */
     footer {padding: 1rem 20rem;}
@@ -1218,4 +1199,17 @@ html, body {
         font-size: 4rem;
         line-height: 4.2rem;
     }  
+}
+
+
+
+.home-h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #10718A;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 400;
+    margin: 0;
 }

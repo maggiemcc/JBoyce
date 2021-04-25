@@ -10,7 +10,7 @@ function closeNav() {
 
 
 
-const apiURL = "js/chapterStats.json";
+const apiURL = "chapterStats.json";
 fetch(apiURL)
   .then((response) => response.json())
   .then((myList) => {
